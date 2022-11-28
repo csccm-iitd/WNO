@@ -1,13 +1,13 @@
 # Wavelet-Neural-Operator-for-pdes
-Wavelet  Neural  Operator  for  solving  parametric  partialdifferential  equations  in  computational  mechanics  problems
-
-![WNO](WNN.png)
-![WNO](WNN_parameter.png)
-
-# Learning-physics-from-output-only-data
 This repository contains the python codes of the paper 
-  > + "A sparse Bayesian framework for discovering interpretable nonlinear stochastic dynamical systems with Gaussian white noise", authored by Tapas Tripura and Souvik Chakraborty. [Article](https://doi.org/10.1016/j.ymssp.2022.109939)
-  > + In arXiv version this article can be searched as "Learning governing physics from output only measurements". The arXiv version can be accessed [here](https://arxiv.org/pdf/2208.05609.pdf).
+  > + "Wavelet  Neural  Operator  for  solving  parametric  partialdifferential  equations  in  computational  mechanics  problems", authored by Tapas Tripura and Souvik Chakraborty.
+  > + In arXiv version this article can be searched as "Wavelet neural operator: a neural operator for parametric partial differential equations". The arXiv version can be accessed [here](https://arxiv.org/abs/2208.05609).
+
+> Architecture of the wavelet neural operator (WNO). (a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
+![WNO](WNN.png)
+
+> Construction of the parametric space using multiwavelet decomposition.
+![Construction of parameterization space in WNO](WNN_parameter.png)
 
 # Files
 The main codes, described below, are standalone codes. They can be directly run. However, for the figures in the published article, one needs to run the files in the folder `Paper_figures`. A short despcription on the files are provided below for ease of readers.
@@ -27,18 +27,10 @@ The saved dataset for reproducing the figures in the above article can be access
 # BibTex
 If you use any part our codes, please cite us at,
 ```
-@article{tripura2023sparse,
-  title={A sparse Bayesian framework for discovering interpretable nonlinear stochastic dynamical systems with Gaussian white noise},
+@article{tripura2022wavelet,
+  title={Wavelet neural operator: a neural operator for parametric partial differential equations},
   author={Tripura, Tapas and Chakraborty, Souvik},
-  journal={Mechanical Systems and Signal Processing},
-  volume={187},
-  pages={109939},
-  year={2023},
-  publisher={Elsevier}
+  journal={arXiv preprint arXiv:2205.02191},
+  year={2022}
 }
-```
-
-# APA-style
-```
-Tripura, T., & Chakraborty, S. (2023). A sparse Bayesian framework for discovering interpretable nonlinear stochastic dynamical systems with Gaussian white noise. Mechanical Systems and Signal Processing, 187, 109939.
 ```
