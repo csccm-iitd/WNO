@@ -21,6 +21,10 @@ The main codes, described below, are standalone codes. They can be directly run.
   + `utils_response.py` is the code to generate data using stochastic calculus.
 The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sindy*.
 
+# Testing
+For performing predictions on new inputs, one can use the 'WNO_testing_(.).py' codes given in the `Testing` folder. The trained models, that were used to produce results for the WNO paper can be found in the following link:
+  > [Models](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
+
 # Dataset
   + The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), and (ii) 2-D Allen-Cahn equation (section 4.5), are available in the following link:
     > [Dataset-1](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
