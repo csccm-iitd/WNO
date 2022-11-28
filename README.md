@@ -28,7 +28,7 @@ The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sind
     > [Dataset-2](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-)
   + The datasets for 2-D Darcy flow equation with a notch in triangular domain ('Darcy_Triangular_FNO.mat') is taken from following,
     > [Dataset-3](https://drive.google.com/drive/folders/183zFbUqBG3uMthqG16foi5l7vKPPJZ02)
-  + The datasets for 1-D time-dependent wave advection equation ('train_IC2.npz'), are taken from the following link,
+  + The datasets for 1-D time-dependent wave advection equation, are taken from the following link,
     > [Dataset-4](https://drive.google.com/drive/folders/1oAh2mUd7YRW8boiCGU_vURfcyYVPJiH3)
 
 # BibTex
