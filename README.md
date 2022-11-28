@@ -29,7 +29,7 @@ Following packages are required to be installed to run the above codes:
   + [PyTorch](https://pytorch.org/)
   + [PyWavelets - Wavelet Transforms in Python](https://pywavelets.readthedocs.io/en/latest/)
   + [Wavelet Transforms in Pytorch](https://github.com/fbcotter/pytorch_wavelets)
-  + Xarray-Grib reader [Link-1](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install) [Link-2](https://anaconda.org/anaconda/xarray) 
+  + Xarray-Grib reader (To read ERA5 data in section 5) [Link-1](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install), [Link-2](https://anaconda.org/anaconda/xarray) 
 
 Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
 
