@@ -1,8 +1,8 @@
 # Wavelet-Neural-Operator-for-pdes
 Wavelet  Neural  Operator  for  solving  parametric  partialdifferential  equations  in  computational  mechanics  problems
 
-![WNO](WNN.pdf)
-
+![WNO](WNN.png)
+![WNO](WNN_parameter.png)
 
 # Learning-physics-from-output-only-data
 This repository contains the python codes of the paper 
