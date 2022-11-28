@@ -25,6 +25,14 @@ A short despcription on the files are provided below for ease of readers.
   + `utilities3.py` is the code to generate data using stochastic calculus.
 The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sindy*.
 
+# Library support
+Following packages are required to be installed to run the above codes:
+  + [PyTorch](https://pytorch.org/)
+  + [PyWavelets - Wavelet Transforms in Python](https://pywavelets.readthedocs.io/en/latest/)
+  + [Wavelet Transforms in Pytorch](https://github.com/fbcotter/pytorch_wavelets)
+  + Xarray-Grib reader [Link-1](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install) [Link-2](https://anaconda.org/anaconda/xarray)
+Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
+
 # Testing
 For performing predictions on new inputs, one can use the 'WNO_testing_(.).py' codes given in the `Testing` folder. The trained models, that were used to produce results for the WNO paper can be found in the following link:
   > [Models](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
