@@ -22,15 +22,16 @@ A short despcription on the files are provided below for ease of readers.
   + `wno_2d_ERA5.py`: This code is for forecast of monthly averaged 2m air temperature (time-independent problem).
   + `wno_2d_ERA5_time.py`: This code is for weekly forecast of 2m air temperature (time-dependent problem).
   + `wno_2d_time_NS.py`: This code is for 2-D Navier-Stokes equation (2D time-dependent problem).
-  + `utilities3.py` is the code to generate data using stochastic calculus.
-The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sindy*.
+  + `utilities3.py` contains some useful functions (taken from [FNO paper](https://github.com/zongyi-li/fourier_neural_operator)).
 
 # Library support
 Following packages are required to be installed to run the above codes:
   + [PyTorch](https://pytorch.org/)
   + [PyWavelets - Wavelet Transforms in Python](https://pywavelets.readthedocs.io/en/latest/)
   + [Wavelet Transforms in Pytorch](https://github.com/fbcotter/pytorch_wavelets)
-  + Xarray-Grib reader [Link-1](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install) [Link-2](https://anaconda.org/anaconda/xarray) <br/>
+  + Xarray-Grib reader [Link-1](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html?highlight=install) [Link-2](https://anaconda.org/anaconda/xarray) 
+<br/>
+
 Copy all the data in the folder 'data' and place the folder 'data' inside the same mother folder where the codes are present.	Incase, the location of the data are changed, the correct path should be given.
 
 # Testing
