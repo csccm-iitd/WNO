@@ -22,8 +22,14 @@ The main codes, described below, are standalone codes. They can be directly run.
 The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sindy*.
 
 # Dataset
-The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), and (ii) 2-D Allen-Cahn equation (section 4.5), is available in the following link:
-> [Saved Datasets](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
+  + The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), and (ii) 2-D Allen-Cahn equation (section 4.5), is available in the following link:
+    > [Dataset-1](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
+  + The datasets for (i) 1-D Burgers equation ('burgers_data_R10.zip'), (ii) 2-D Darcy flow equation in a rectangular domain ('Darcy_421.zip'), (iii) 2-D time-dependent Navier-Stokes equation ('ns_V1e-3_N5000_T50.zip'), are taken from the following link,
+    > [Dataset-2](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-)
+  + The datasets for 2-D Darcy flow equation with a notch in triangular domain ('Darcy_Triangular_FNO.mat') is taken from following,
+    > [Dataset-3](https://drive.google.com/drive/folders/183zFbUqBG3uMthqG16foi5l7vKPPJZ02)
+  + The datasets for 1-D time-dependent wave advection equation ('train_IC2.npz'), are taken from the following link,
+    > [Dataset-4](https://drive.google.com/drive/folders/1oAh2mUd7YRW8boiCGU_vURfcyYVPJiH3)
 
 # BibTex
 If you use any part our codes, please cite us at,
