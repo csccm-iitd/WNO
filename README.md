@@ -1,6 +1,9 @@
 # Wavelet-Neural-Operator-for-pdes
 Wavelet  Neural  Operator  for  solving  parametric  partialdifferential  equations  in  computational  mechanics  problems
 
+![WNO](WNN.pdf)
+
+
 # Learning-physics-from-output-only-data
 This repository contains the python codes of the paper 
   > + "A sparse Bayesian framework for discovering interpretable nonlinear stochastic dynamical systems with Gaussian white noise", authored by Tapas Tripura and Souvik Chakraborty. [Article](https://doi.org/10.1016/j.ymssp.2022.109939)
