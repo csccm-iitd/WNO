@@ -3,10 +3,11 @@ This repository contains the python codes of the paper
   > + "Wavelet  Neural  Operator  for  solving  parametric  partialdifferential  equations  in  computational  mechanics  problems", authored by Tapas Tripura and Souvik Chakraborty.
   > + In arXiv version this article can be searched as "Wavelet neural operator: a neural operator for parametric partial differential equations". The arXiv version can be accessed [here](https://arxiv.org/abs/2208.05609).
 
-> Architecture of the wavelet neural operator (WNO). (a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
+# Architecture of the wavelet neural operator (WNO). 
+(a) Schematic of the proposed neural operator. (b) A simple WNO with one wavelet kernel integral layer. 
 ![WNO](WNN.png)
 
-> Construction of the parametric space using multiwavelet decomposition.
+# Construction of the parametric space using multiwavelet decomposition.
 ![Construction of parameterization space in WNO](WNN_parameter.png)
 
 # Files
@@ -15,14 +16,14 @@ The main codes, described below, are standalone codes. They can be directly run.
   + `Example_2_Duffing.py` is the code to discover physics for the Example 2: Parametrically excited Duffing oscillator [article](https://arxiv.org/pdf/2208.05609.pdf).
   + `Example_3_2DOF.py` is the code to discover physics for the Example 3: 2DOF system [article](https://arxiv.org/pdf/2208.05609.pdf).
   + `Example_4_boucwen.py` is the code to discover physics for the Example 4: Bouc-Wen, with partially observed state variables [article](https://arxiv.org/pdf/2208.05609.pdf).
-  - `utils_gibbs.py` is a part of gibbs sampling in section 2.2 [article](https://arxiv.org/pdf/2208.05609.pdf).
+  - `utils_gibbs.py` is a part of gibbs sampling in section 2.2.
   * `utils_library.py` contains useful functions, like, library construction, data-normalization.
   + `utils_response.py` is the code to generate data using stochastic calculus.
 The codes for the *Stochastic SINDy* are provided in the folder *Stochastic_Sindy*.
 
 # Dataset
-The saved dataset for reproducing the figures in the above article can be accessed at,
-> [Saved Datasets](https://drive.google.com/drive/folders/1o5ZoWFjuJwuktp-Kgl9acQUlZ5ALEtZB?usp=sharing)
+The training and testing datasets for the (i) Burgers equation with discontinuity in the solution field (section 4.1), and (ii) 2-D Allen-Cahn equation (section 4.5), is available in the following link:
+> [Saved Datasets](https://drive.google.com/drive/folders/1scfrpChQ1wqFu8VAyieoSrdgHYCbrT6T?usp=sharing)
 
 # BibTex
 If you use any part our codes, please cite us at,
