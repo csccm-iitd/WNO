@@ -52,10 +52,13 @@ The dataset for the Weakly and monthly mean 2m air temperature are downloaded fr
 # BibTex
 If you use any part our codes, please cite us at,
 ```
-@article{tripura2022wavelet,
-  title={Wavelet neural operator: a neural operator for parametric partial differential equations},
+@article{tripura2023wavelet,
+  title={Wavelet Neural Operator for solving parametric partial differential equations in computational mechanics problems},
   author={Tripura, Tapas and Chakraborty, Souvik},
-  journal={arXiv preprint arXiv:2205.02191},
-  year={2022}
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={404},
+  pages={115783},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
