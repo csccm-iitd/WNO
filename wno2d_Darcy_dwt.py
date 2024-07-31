@@ -151,7 +151,7 @@ test_loader = torch.utils.data.DataLoader(torch.utils.data.TensorDataset(x_test,
 # %%
 """ The model definition """
 model = WNO2d(width=width, level=level, layers=layers, size=[h,h], wavelet=wavelet,
-              in_channel=in_channel, grid_range=grid_range, padding=0).to(device)
+              in_channel=in_channel, grid_range=grid_range, padding=1).to(device)
 print(count_params(model))
 
 """ Training and testing """
