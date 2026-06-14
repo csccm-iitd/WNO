@@ -63,9 +63,9 @@ class WaveConv2d(nn.Module):
         return x
 
 # %%
-class FNO2d(nn.Module):
+class WNO2d(nn.Module):
     def __init__(self, modes1, modes2,  width):
-        super(FNO2d, self).__init__()
+        super(WNO2d, self).__init__()
 
         """
         The overall network. It contains 4 layers of the Wavelet layer.
